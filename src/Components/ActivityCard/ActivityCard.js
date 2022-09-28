@@ -2,11 +2,16 @@ import React from 'react';
 import './ActivityCard.css'
 
 const ActivityCard = (props) => {
-    const {id}=props.activity;
+    const {id, name, img, time}=props.activity;
     return (
-        <div>
-            <h1>inside card</h1>
-            <p>id = {id}</p>
+        <div className='card' >
+            <div>
+                <img src={img} alt="" />
+                <h2>{name}</h2>
+                <h4>Time spent: {time}</h4>
+                <button >Add to list</button>
+            </div>
+            
         </div>
     );
 };

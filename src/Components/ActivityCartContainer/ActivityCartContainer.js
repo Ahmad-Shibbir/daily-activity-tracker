@@ -12,14 +12,17 @@ const ActivityCartContainer = () => {
     },[])
 
     return (
-        <div>
-            <h1>My Daily Activity </h1>
+        <div className='Container-background'>
+            <h2>Activity list</h2>
+            <div className='card-container'>
             {
                 activities.map(activity=> <ActivityCard 
                     key={activity.id} 
                     activity={activity}>
                     </ActivityCard>)
             }
+            </div>
+           
             
         </div>
     );
