@@ -1,47 +1,47 @@
 [
     {
-        "activity-id":"001",
-        "activity-name":"Watching Tutorial",
+        "id":"001",
+        "name":"Watching Tutorial",
         "info":" ",
         "img":"https://cdn-media-1.freecodecamp.org/images/1*3pyJUEclXtPt8TNONerTUg.jpeg",
         "time":"3 "
 
     },
     {
-        "activity-id":"002",
-        "activity-name":"Practice coding",
+        "id":"002",
+        "name":"Practice coding",
         "info":" ",
         "img":"https://miro.medium.com/max/1400/0*n5-lUv25RiCKPASW",
         "time":"4 "
 
     },
     {
-        "activity-id":"003",
-        "activity-name":"Sleeping ",
+        "id":"003",
+        "name":"Sleeping ",
         "info":" ",
         "img":"https://cdn.shopify.com/s/files/1/2072/2321/articles/what_is_the_best_time_to_get_up_700x.jpg?v=1611938110",
         "time":" "
 
     },
     {
-        "activity-id":"004",
-        "activity-name":"Physical Exercise",
+        "id":"004",
+        "name":"Physical Exercise",
         "info":" ",
         "img":"https://cdn.mos.cms.futurecdn.net/KLZwUWe4JwyyXY7pV7CpaU.jpg",
         "time":"1"
 
     },
     {
-        "activity-id":"005",
-        "activity-name":"Meditation",
+        "id":"005",
+        "name":"Meditation",
         "info":" ",
         "img":"https://www.aami.com.au/content/dam/suncorp/insurance/aami/images/aami-answers/image/man-meditating-in-sunlight-1200x686.jpg",
         "time":"1"
 
     },
     {
-        "activity-id":"006",
-        "activity-name":"Social activity",
+        "id":"006",
+        "name":"Social activity",
         "info":" ",
         "img":"https://content.thriveglobal.com/wp-content/uploads/2020/08/local-community-activities.jpg",
         "time":"2"
