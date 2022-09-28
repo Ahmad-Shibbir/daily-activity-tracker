@@ -4,7 +4,7 @@
         "name":"Watching Tutorial",
         "info":" ",
         "img":"https://cdn-media-1.freecodecamp.org/images/1*3pyJUEclXtPt8TNONerTUg.jpeg",
-        "time":"3 "
+        "time":3
 
     },
     {
@@ -12,7 +12,7 @@
         "name":"Practice coding",
         "info":" ",
         "img":"https://miro.medium.com/max/1400/0*n5-lUv25RiCKPASW",
-        "time":"4 "
+        "time":4
 
     },
     {
@@ -20,7 +20,7 @@
         "name":"Sleeping ",
         "info":" ",
         "img":"https://cdn.shopify.com/s/files/1/2072/2321/articles/what_is_the_best_time_to_get_up_700x.jpg?v=1611938110",
-        "time":" "
+        "time":7
 
     },
     {
@@ -28,7 +28,7 @@
         "name":"Physical Exercise",
         "info":" ",
         "img":"https://cdn.mos.cms.futurecdn.net/KLZwUWe4JwyyXY7pV7CpaU.jpg",
-        "time":"1"
+        "time":1
 
     },
     {
@@ -36,7 +36,7 @@
         "name":"Meditation",
         "info":" ",
         "img":"https://www.aami.com.au/content/dam/suncorp/insurance/aami/images/aami-answers/image/man-meditating-in-sunlight-1200x686.jpg",
-        "time":"1"
+        "time":1
 
     },
     {
@@ -44,7 +44,7 @@
         "name":"Social activity",
         "info":" ",
         "img":"https://content.thriveglobal.com/wp-content/uploads/2020/08/local-community-activities.jpg",
-        "time":"2"
+        "time":2
 
     }
 ]

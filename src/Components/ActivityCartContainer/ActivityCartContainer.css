@@ -1,11 +1,24 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
 .card-container{
     margin: 2%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     
 }
 .Container-background{
     background-color: beige;
 }
+
+@media only screen and (max-width: 600px) {
+    .main-container{
+        grid-template-columns: 1fr;
+    }
+    .card-container{
+        grid-template-columns:  1fr;
+    }
+  }

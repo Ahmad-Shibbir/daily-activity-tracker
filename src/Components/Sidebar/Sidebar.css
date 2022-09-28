@@ -1,12 +1,15 @@
-.user-info div{
-    display: flex;
+.sidbar{
+    border: 2px solid black;
+    margin:0 2% 2% 2%;
+    padding-top: 10px;
 }
+
 .user-img{
     width: 50px;
     border: 1px solid black;
     border-radius: 50%;
 }
-.activity-time, .body-info-container, .break-time, .break-btn-box{
+.activity-time, .extra-info-container, .break-time, .break-btn-box{
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -15,13 +18,19 @@
     border-radius: 5px;
     background-color: beige;
 }
-.body-info{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
 .break-btn{
     height: 50px;
     border-radius: 50%;
     margin: 3%;
     background-color: azure;
+}
+.btn{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    font-size: large;
+    font-weight: 700;
+    margin: 10px;
 }
