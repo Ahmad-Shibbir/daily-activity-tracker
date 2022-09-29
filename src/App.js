@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import ActivityCartContainer from './Components/ActivityCartContainer/ActivityCartContainer';
 import ExtraQuestion from './Components/ExtraQuestion/ExtraQuestion';
