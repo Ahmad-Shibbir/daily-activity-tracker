@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Sidebar.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -6,8 +6,20 @@ import 'react-toastify/dist/ReactToastify.css';
 const Sidebar = (props) => {
     const {activityTime}=props;
     let totalTime = 0;
-   for(const time of activityTime)
-    totalTime = totalTime+ time.activityTime;
+    //console.log(activityTime);
+   for(const time of activityTime){
+    totalTime = totalTime + time.time;
+   }
+   
+   const [breakT, setBreak] = useState(0)
+
+   let newBreakTime= 0;
+   const breakTimeHandeler = (time) => {
+        newBreakTime = newBreakTime + time
+        setBreak(newBreakTime);
+        newBreakTime = 0;
+   }
+
 
     const notify = () => toast("Wow Your Activities are Completed!");
     
@@ -41,10 +53,10 @@ const Sidebar = (props) => {
                 </div>
 
                 <div className="break-btn-box">
-                    <button className="break-btn" >20mnt</button>
-                    <button className="break-btn" >20mnt</button>
-                    <button className="break-btn" >20mnt</button>
-                    <button className="break-btn" >20mnt</button>
+                    <button onClick={()=>breakTimeHandeler(15)} className="break-btn" >15mnt</button>
+                    <button onClick={()=>breakTimeHandeler(30)}  className="break-btn" >30mnt</button>
+                    <button onClick={()=>breakTimeHandeler(45)}  className="break-btn" >45mnt</button>
+                    <button onClick={()=>breakTimeHandeler(60)}  className="break-btn" >60mnt</button>
                 </div>
            </div>
 
@@ -52,12 +64,12 @@ const Sidebar = (props) => {
                 <h3>Activity Details</h3>
                 <div className='activity-time'>
                     <h3>Activity Time</h3>
-                    <p>{totalTime}hr</p>
+                    <p>{totalTime} <small>hr</small></p>
                 </div>
 
                 <div className="break-time">
                     <h3>Activity Time</h3>
-                    <p>200hr</p>
+                    <p>{breakT}<small>min</small></p>
                 </div>
             </div>
 

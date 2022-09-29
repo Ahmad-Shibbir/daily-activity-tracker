@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStopwatch } from '@fortawesome/free-solid-svg-icons'
 import ActivityCard from '../ActivityCard/ActivityCard';
 import Sidebar from '../Sidebar/Sidebar';
 import './ActivityCartContainer.css'
@@ -24,7 +26,11 @@ const ActivityCartContainer = () => {
         
         <div className='main-container'>
         <div className='Container-background'>
-                <h1>Daily Activity Tracker</h1><br />
+            <div className='iconAndTitle'>
+            <FontAwesomeIcon className='icon' icon={faStopwatch}></FontAwesomeIcon>
+                <h1>Daily Activity Tracker</h1>
+            </div>
+                <br />
                 <h2>Select Today's Tasks</h2>
                 <div className='card-container'>
                 {

@@ -9,8 +9,8 @@ const ActivityCard = ({addTime, activity}) => {
             <div>
                 <img src={img} alt="" />
                 <h3>{name}</h3>
-                <h4>Time spent: {time}</h4>
-                <button className='btn' onClick={()=>addTime(time)} >Add to list</button>
+                <h4>Time spent: {time} hr</h4>
+                <button className='btn' onClick={()=>addTime(activity)} >Add to list</button>
             </div>
             
         </div>
