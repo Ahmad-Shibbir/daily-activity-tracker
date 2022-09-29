@@ -16,8 +16,8 @@ const Sidebar = (props) => {
             <div className="user-info-container">
                 <div className='user-info'>
                     <img className='user-img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTov701drDtzW5INfDz5_NdUhhxUVDv44LrXw&usqp=CAU" alt="" />
-                    <h3>Nayem Khan</h3>
-                    <p>chitagong</p>
+                    <h3>Ahmad Shibbir</h3>
+                    <p>Narsingdi</p>
                     
                 </div>
        

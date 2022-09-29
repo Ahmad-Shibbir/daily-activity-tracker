@@ -1,0 +1,12 @@
+.dashed {
+    border-top: 3px dashed #bbb;
+  }
+  .question-box{
+    margin: 0 2%;
+    padding: 3%;
+    background-color: beige;
+  }
+  .question-box p{
+    margin: 20px;
+    text-align: start !important;
+  }

@@ -24,7 +24,8 @@ const ActivityCartContainer = () => {
         
         <div className='main-container'>
         <div className='Container-background'>
-                <h2>Activity list {activityTime}</h2>
+                <h1>Daily Activity Tracker</h1><br />
+                <h2>Select Today's Tasks</h2>
                 <div className='card-container'>
                 {
                     activities.map(activity=> <ActivityCard 
